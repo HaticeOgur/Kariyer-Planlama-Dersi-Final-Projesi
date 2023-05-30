@@ -1,0 +1,258 @@
+.feature__subtitle {
+    color: darkolivegreen;
+  }
+  
+  .feature__title span {
+    color: darkolivegreen;
+  }
+  
+  .feature__text {
+    color: #777;
+  }
+  
+  .feature__item p {
+    color: #777;
+  }
+  .food_category {
+    background: darkolivegreen;
+    text-align: center;
+    margin-top: 30px;
+    padding: 20px 0px;
+    border-radius: 8px;
+  }
+
+  .food_category button{
+    border: none;
+    outline: none;
+    padding: 7px 20px;
+    background: transparent;
+    color: #fff;
+
+  }
+  .food_category button img{
+    width: 20px;
+    height: 20px;
+  }
+  .foodBtnActive {
+    background: #fff !important;
+    border-radius: 5px;
+    color: darkolivegreen !important;
+  }
+
+  .yesil_gurme-title  span{
+    color: darkolivegreen;
+
+  }
+
+  .yesil_gurme-desc{
+    color: #777;
+    line-height: 28px;
+   
+
+  }
+
+  .choose__us-title {
+    font-weight: 600;
+    margin-bottom: 10px;
+  }
+
+  .choose__us-title i {
+    font-weight: 500 !important;
+    color: darkolivegreen;
+  }
+
+  .choose__us-desc {
+    color: #777;
+  }
+
+  .musteri_yorumlari{
+    color: rgb(13, 180, 236);
+  }
+  .musteri_title span{
+    color: rgb(143, 214, 143);
+
+  }
+  .musteri_title{
+    color: #777;
+  }
+  .musteri_desc{
+    color: #777;
+    line-height: 30px;
+  }
+  
+  @media only screen and (max-width: 768px) {
+    .giris h5 {
+      font-size: 1rem;
+    }
+  
+    .giris p {
+      font-size: 0.8rem;
+      line-height: 25px;
+    }
+    .giris_title{
+    font-size: 1.5rem;
+    line-height: 40px;
+    }
+    .giris__btns button{
+    padding: 5px 15px;
+    font-size: 0.7rem;
+
+    }
+    .giris_service p{
+    font-size: 0.7rem !important;
+
+    }
+    .feature_item p{
+    font-size: 0.8rem;
+    margin-bottom: 0;
+    }
+    .feature__subtitle{
+    font-size: 1rem;
+    }
+    .feature__text{
+    font-size: 0.8rem;
+    margin-bottom: 0;
+    }
+    .food_category {
+        background: darkolivegreen;
+        text-align: center;
+        margin-top: 30px;
+        padding: 20px 0px;
+        border-radius: 8px;
+    }
+    .food_category button{
+  border: none;
+  outline: none;
+  padding: 7px 20px;
+  background: transparent;
+  color: #fff;
+    }
+    .food_category button img{
+  width: 20px;
+  height: 20px;
+    }
+    .foodBtnActive{
+  background: #fff !important;
+  border-radius: 5px;
+  color: darkolivegreen !important;
+    }
+    .yesil_gurme-title  span{
+        color: darkolivegreen;
+
+    }
+    .yesil_gurme-desc{
+        color: #777;
+        line-height: 28px;
+    }
+
+    .choose__us-title {
+        font-weight: 600;
+        margin-bottom: 10px;
+      }
+      
+      .choose__us-title i {
+        font-weight: 500 !important;
+        color:darkolivegreen;
+      }
+      
+      .choose__us-desc {
+        color: #777;
+      }
+      .musteri_yorumlari {
+        color: darkolivegreen;
+      }
+      .musteri_title span{
+        color: darkolivegreen;
+      }
+      .musteri_desc{
+        color: #777;
+        line-height: 30px;
+      }
+
+
+      @media only screen and (max-width: 768px) {
+        .giris h5  {
+          font-size: 1rem;
+        }
+      
+        .giris p {
+          font-size: 0.8rem;
+          line-height: 25px;
+        }
+      
+        .giris_title {
+          font-size: 1.5rem;
+          line-height: 40px;
+        }
+      
+        .giris__btns button {
+          padding: 5px 15px;
+          font-size: 0.7rem;
+        }
+      
+        .giris_service p {
+          font-size: 0.7rem !important;
+        }
+      
+        .feature_item h5 {
+          font-size: 0.9rem;
+        }
+      
+        .feature_item p {
+          font-size: 0.8rem;
+          margin-bottom: 0;
+        }
+      
+        .feature__subtitle {
+          font-size: 1rem;
+        }
+        .feature__text {
+          font-size: 0.8rem;
+          margin-bottom: 0;
+        }
+      
+        .food_category {
+          padding: 15px;
+        }
+        .food_category button {
+          padding: 5px 15px;
+          font-size: 0.7rem;
+        }
+      
+        .yesil_gurme-desc {
+          font-size: 0.8rem;
+          margin-bottom: 0;
+        }
+        .choose__us-title {
+          font-size: 0.8rem;
+        }
+      
+        .choose__us-desc {
+          font-size: 0.7rem;
+        }
+      
+        .musteri_yorumlari {
+          font-size: 1rem;
+        }
+        .musteri_desc {
+          font-size: 0.8rem;
+        }
+      }
+      @media only screen and (max-width: 576px) {
+        .giris {
+          text-align: center;
+        }
+      
+        .giris__btns{
+          justify-content: center;
+        }
+      
+        .giris_service {
+          justify-content: center;
+        }
+        .why_choose-us {
+          padding-top: 0 !important;
+        }
+      }
+  }
+

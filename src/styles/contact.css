@@ -1,0 +1,31 @@
+.iletisim{
+
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:darkolivegreen
+
+}
+
+.iletisim .iletisim-container p{
+    
+    cursor: pointer;
+    color:rgb(173, 111, 35);
+    font-size: medium;
+}
+
+.iletisim .iletisim-container{
+    width: calc(100%-60%);
+    object-fit: cover;
+    margin-bottom: 5px;  
+    display: flex;
+    flex-direction: column;
+    background-color: bisque;
+}
+.iletisim img{
+    width: calc(100%-60%);
+    object-fit: cover;
+    margin-bottom: 5px;  
+    border-radius: 50%;
+}
